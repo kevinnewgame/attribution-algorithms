@@ -1,6 +1,3 @@
-# pycharm file
-.idea/
-
 # project paper
 paper/
 
@@ -145,6 +142,9 @@ venv.bak/
 # Spyder project settings
 .spyderproject
 .spyproject
+
+# Pycharm project settings
+.idea
 
 # Rope project settings
 .ropeproject
