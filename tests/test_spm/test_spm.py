@@ -7,21 +7,21 @@ Created on Fri Dec 13 17:25:15 2024
 import pandas as pd
 import numpy as np
 import pytest
-from src.spm.simple_prob_model import SimpleProbabilisticModel
+from algorithm.spm import SimpleProbabilisticModel
 
 
 class TestSpm:
 
-    def __init__(self):
-        data = self.data = pd.read_pickle(
-            "tests/test_spm/dataset/tianmao_usual21_40_model_data.pkl")
-        self.tp = "搜索_搜索结果"  # test touchpoint
+    # def __init__(self):
+    #     data = self.data = pd.read_pickle(
+    #         "tests/test_spm/dataset/tianmao_usual21_40_model_data.pkl")
+    #     self.tp = "搜索_搜索结果"  # test touchpoint
 
-        self.y = data["conversion"]
-        self.w = data["n"]
-        self.X = data.drop(["conversion", "n"], axis=1)
-        self.model = SimpleProbabilisticModel(self.y, self.X, self.w)
-        self.model.train()
+    #     self.y = data["conversion"]
+    #     self.w = data["n"]
+    #     self.X = data.drop(["conversion", "n"], axis=1)
+    #     self.model = SimpleProbabilisticModel(self.y, self.X, self.w)
+    #     self.model.train()
 
     def test_first_prob(self):
         x = self.data[self.tp]
