@@ -5,6 +5,9 @@ There are two algorithms for the advertising analysis purpose.
 Note that the program is a copy from ianchute. The modification is on the input format,
 from dictionary to pandas dataframe to follow the data science convention.
 
+Only "Simplified Shapley Value Method" is implemented. For "Ordered Shapley Value Method"
+, please refer to ianchute's project.
+
 ### References
 
 #### Paper

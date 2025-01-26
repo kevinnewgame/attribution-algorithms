@@ -14,8 +14,8 @@ class TestSpm:
 
     # def __init__(self):
     #     data = self.data = pd.read_pickle(
-    #         "tests/test_spm/dataset/tianmao_usual21_40_model_data.pkl")
-    #     self.tp = "搜索_搜索结果"  # test touchpoint
+    #         "tests/test_spm/dataset/a_data.pkl")
+    #     self.tp = "tp0_tp1"  # test touchpoint
 
     #     self.y = data["conversion"]
     #     self.w = data["n"]
